@@ -12,7 +12,6 @@ import pandas as pd
 import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_core.pydantic_v1 import BaseModel, Field
-from pyngrok import ngrok
 import subprocess
 
 # Set up the Streamlit page
