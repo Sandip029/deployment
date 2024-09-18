@@ -26,7 +26,7 @@ st.markdown("""
 """)
 
 # Get the API key from environment variables
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
 
 # Initialize the language model if API key is available
 if not GROQ_API_KEY:
